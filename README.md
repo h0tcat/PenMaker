@@ -5,6 +5,6 @@
 画像ファイルを用いて、生成します
 # 使い方
 
-java -jar PenMaker.jar 画像ファイルのパス 保存ファイル名<br>
+java -jar PenMaker.jar <br>
 <br>
 ※自動的に拡張子がつきます

@@ -28,7 +28,7 @@ public class PenMaker extends Application {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        detailsPen penPlugin = new detailsPen(new Image(new File(args[0]).toURI().toString()));
+        detailsPen penPlugin = new detailsPen(new File(args[0]).toURI().toString());
         try {
             objOutputStream.writeObject(penPlugin);
             System.out.println("D 0 N E !");
@@ -44,5 +44,6 @@ public class PenMaker extends Application {
             }
 
         }
+        System.exit(0);
     }
 }
