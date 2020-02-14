@@ -3,6 +3,7 @@ package nori.soft.util;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 
+import java.io.File;
 import java.io.Serializable;
 
 public class detailsPen implements Serializable {
