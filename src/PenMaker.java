@@ -21,7 +21,7 @@ public class PenMaker {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            detailsPen penPlugin = new detailsPen(new Image(new File(args[0]).toURI().toString()));
+            detailsPen penPlugin = new detailsPen(new Image(args[0]));
             try {
                 objOutputStream.writeObject(penPlugin);
                 System.out.println("D 0 N E !");
